@@ -37,7 +37,7 @@
 
   &--current {
     position: relative;
-    color: var(--accent-color);
+    color: $accent-color;
 
     &::after {
       content: '';

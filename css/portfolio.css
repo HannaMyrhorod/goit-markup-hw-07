@@ -132,7 +132,7 @@ img {
 
 .site-nav__link--current {
   position: relative;
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .site-nav__link--current::after {
