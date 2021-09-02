@@ -20,15 +20,15 @@
         <div class="container">
             <div class="page-header__content">
                 <nav class="page-header__nav">
-                    <a href="./index.html" class="logo">Web<span class="logo__end black">Studio</span></a>
-                    <ul class="site-nav list">
-                        <li class="site-nav__item"><a class="site-nav__link site-nav__link--current"
+                    <a href="./index.html" class="logo">Web<span class="logo__end--black">Studio</span></a>
+                    <ul class="site-nav">
+                        <li class="site-nav__item"><a class="site-nav__link"
                                 href="./index.html">Студия</a></li>
-                        <li class="site-nav__item"><a class="site-nav__link" href="./portfolio.html">Портфолио</a></li>
+                        <li class="site-nav__item"><a class="site-nav__link site-nav__link--current" href="./portfolio.html">Портфолио</a></li>
                         <li class="site-nav__item"><a class="site-nav__link" href="#contacts">Контакты</a></li>
                     </ul>
                 </nav>
-                <ul class="contacts list">
+                <ul class="contacts">
                     <li class="contacts__item"><a class="contacts__link" href="mailto:info@devstudio.com">
                             <svg class="contacts__icon" width="16" height="12">
                                 <use href="./images/sprite.svg#icon-envelope"></use>
@@ -47,7 +47,7 @@
         <section class="section">
             <div class="container">
                 <!-- Filters -->
-                <ul class="filters list">
+                <ul class="filters">
                     <li class="filters__item"><button type="button" class="filters__button">Все</button></li>
                     <li class="filters__item"><button type="button" class="filters__button">Веб-сайты</button></li>
                     <li class="filters__item"><button type="button" class="filters__button">Приложения</button></li>
@@ -55,7 +55,7 @@
                     <li class="filters__item"><button type="button" class="filters__button">Маркетинг</button></li>
                 </ul>
                 <!-- Portfolio Works -->
-                <ul class="card-set list">
+                <ul class="card-set">
                     <li class="card-set__item">
                         <a href="" class="product">
                             <div class="product__thumb">
@@ -206,7 +206,7 @@
                     <a href="./index.html" class="logo">Web<span class="logo__end--white">Studio</span></a>
                     <address id="contacts" class="footer__address">
                         г. Киев, пр-т Леси Украинки, 26
-                        <ul class="list">
+                        <ul class="footer__list">
                             <li class="footer__contact"><a class="footer__link"
                                     href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                             <li class="footer__contact"><a class="footer__link" href="tel:+380961111111">+38 096 111 11
@@ -216,7 +216,7 @@
                 </div>
                 <div>
                     <h3 class="footer__title">Присоединяйтесь</h3>
-                    <ul class="networks list">
+                    <ul class="networks">
                         <li class="networks__item"><a class="networks__link networks__link--footer"
                                 href="https://www.instagram.com" aria-label="Instagram">
                                 <svg width="20" height="20">
@@ -243,10 +243,10 @@
                             </a></li>
                     </ul>
                 </div>
-                <form class="footer__mailing">
+                <form class="footer-form">
                     <label class="footer__title" for="email">Подпишитесь на рассылку</label>
-                    <div class="footer__form">
-                        <input class="footer__input" type="email" name="email" id="email" placeholder="E-mail">
+                    <div class="footer-form__field">
+                        <input class="footer-form__input" type="email" name="email" id="email" placeholder="E-mail">
                         <button class="button" type="submit">Подписаться
                             <svg class="button__icon" width="24" height="24">
                                 <use href="./images/sprite.svg#icon-send"></use>
